@@ -1,0 +1,143 @@
+    1  su
+    2  sudo apt update
+    3  apt list --upgradable
+    4  sudo apt full-upgrade
+    5  if [ -f /var/run/reboot-required ]; then echo "Reboot required"; fi
+    6  sudo reboot
+    7  sudo apt autoremove
+    8  apt list --upgradable
+    9  htop, df -h
+   10  htop
+   11  df -h
+   12  systemctl status
+   13  git-basic-exercises
+   14  cd git-basic-exercises
+   15  cd
+   16  git init
+   17  git-basic-exercises
+   18  https://github.com/.git/git-basic-exercises.git
+   19  ls
+   20  Fingert84/git-basic-exercises
+   21  ttps://github.com/Fingert84/git-basic-exercises
+   22  https://github.com/Fingert84/git-basic-exercises
+   23  https://github.com/Fingert84/git-basic-exercises.git
+   24  cd git-basic-exercises
+   25  cd git
+   26  init git
+   27  ls
+   28  git clone https://github.com/Fingert84/git-basic-exercises.git
+   29  git status
+   30  git add
+   31  git add .
+   32  git commit -m "Your commit message here"
+   33  git push origin main
+   34  git https://github.com/Fingert84/git-basic-exercises.git
+   35  https://github.com/Fingert84/git-basic-exercises.git
+   36  https://github.com/Fingert84/git-basic-exercises
+   37  git https://github.com/Fingert84/git-basic-exercises
+   38  git --help
+   39  cd git-basic-exercises
+   40  ls -a
+   41  git status
+   42  git init
+   43  git add .
+   44  git commit -m "Initial commit"
+   45  https://github.com/Fingert84/git-basic-exercises.git
+   46  git config user.email "you@example.com"
+   47  git config user.name "Your Name"
+   48  git config user.email "themba14@gmail.com"
+   49  git config user.name "Themba"
+   50  git config user.email themba14@gmail.com
+   51  git commit -m "Initial commit"
+   52  https://github.com/Fingert84/git-basic-exercises.git
+   53  git remote add origin https://github.com/Fingert84/git-basic-exercises.git
+   54  touch README.md
+   55  ls -a
+   56  git status
+   57  git log
+   58  git add README.md
+   59  git status
+   60  cd git-basic-exercises
+   61  ls -a
+   62  git readme.md
+   63  git status
+   64  git add README.md
+   65  ls -a
+   66  git status
+   67  git commit -m "initial commit"
+   68  cd git-basic-exercises
+   69  ls -a
+   70  git log -- <file-name>
+   71  cat README.md
+   72  ls -a
+   73  git-basic-exercises
+   74  cd git-basic-exercises
+   75  ls -a
+   76  chmod +w README.md
+   77  rm README.md
+   78  rm -f README.md
+   79  ls -a
+   80  rm git
+   81  rm .git
+   82  rm -f .git
+   83  cd git-basic-exercises
+   84  ls -a
+   85  git status
+   86  touch README.md
+   87  ls -a
+   88  git status
+   89  git log
+   90  git add README.md
+   91  git status
+   92  git reset README.md
+   93  git status
+   94  git add README.md
+   95  git commit -m "initial commit"
+   96  git log
+   97  q
+   98  sudo snap install q # version 1.6.3-1,
+   99  sudo snap install q                       # version 1.6.3-1,
+  100  sudo snap install q                       # version 1.6.3-1
+  101  sudo snap install q # version 1.6.3-1
+  102  sudo apt  install python3-q-text-as-data  # version 1.7.4+2018.12.21+git+28f776ed46-2
+  103  q
+  104  git log
+  105  q
+  106  -q
+  107  git status -q
+  108  nano README.md
+  109  cat README.md
+  110  git status
+  111  git add README.md
+  112  git commit -m "second commit"
+  113  nano README.md
+  114  git status
+  115  git add README.md
+  116  git commit -m "third commit"
+  117  git log
+  118  q
+  119  git checkout
+  120  checkout594243833c5657f3153cefb65d675abaa297a42a
+  121  checkout 594243833c5657f3153cefb65d675abaa297a42a
+  122  git checkout594243833c5657f3153cefb65d675abaa297a42a
+  123  git checkout 594243833c5657f3153cefb65d675abaa297a42a
+  124  cd git-basic-exercises
+  125  git checkout 594243833c5657f3153cefb65d675abaa297a42a
+  126  cat README.md
+  127  git checkout main
+  128  cat README.md
+  129  git branch
+  130  git branch milkshake-flavours
+  131  git branch
+  132  git checkout milkshake-flavours
+  133  git branch
+  134  nano milkshakes.md
+  135  git status
+  136  git add milkshakes.md
+  137  git commit -m "added initial flavours"
+  138  git log
+  139  git checkout main
+  140  git checkout -b history
+  141  git log
+  142  git branch
+  143  history > history.txt
